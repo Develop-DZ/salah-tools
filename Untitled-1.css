@@ -1,0 +1,944 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;500;600&display=swap');
+
+.ajouter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    margin-left: 7%;
+    margin-top: 300px;
+    background: #D9D9D9;
+    border-radius: 25px;
+    border: #D9D9D9;
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.supprimer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    margin-left: 7%;
+    margin-top: 390px;
+    background: #D9D9D9;
+    border-radius: 25px;
+    border: #D9D9D9;
+
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+
+.line {
+    position: absolute;
+    height: 99%;
+    margin-left: 35%;
+    margin-top: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transform: rotate(180deg);
+}
+
+
+
+p {
+    position: absolute;
+    width: 466px;
+    height: 108px;
+    margin-left: 50%;
+    margin-top: 310px;
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 89px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.408px;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+
+/*====================================Ajouter Produit ======================================*/
+
+.ajouter-produit {
+    position: absolute;
+    width: 60%;
+    height: 580px;
+    margin-left: 38%;
+    margin-top: 50px;
+    background: #1E1E1E;
+    border-radius: 30px;
+    display: none;
+}
+
+
+.formulaire1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    position: absolute;
+    width: 211px;
+    height: 366px;
+    margin-left: 2%;
+    margin-top: 85px;
+
+}
+
+
+.formulaire1 h2 {
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.408px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.line2 {
+    position: absolute;
+    height: 99%;
+    margin-left: 30%;
+    border: 1px solid #858585;
+    transform: rotate(180deg);
+}
+
+
+.formulaire2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    width: 70%;
+    height: 542px;
+    margin-left: 30%;
+}
+
+
+.formulaire2 .imgcontainer {
+    width: 55%;
+    height: 130px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: none;
+    overflow: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgcontainer .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.image-container #chosen-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#file-name {
+    text-align: center;
+    color: #2a292a;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: 20px;
+    display: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+.formulaire2 main label {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+
+
+.formulaire2 main {
+    display: block;
+    position: relative;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: -25px;
+}
+
+
+.formulaire2 .text {
+
+    width: 80%;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-size: 22px;
+}
+
+
+
+.formulaire2 textarea {
+    width: 80%;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-size: 17px;
+    overflow: auto;
+}
+
+
+.btnajout {
+    margin-top: 530px;
+    margin-left: 55%;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: #D9D9D9;
+    color: #000000;
+    border: #D9D9D9;
+    font-weight: bolder;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Hepta Slab';
+
+}
+
+
+/* =============================================== Supprimer Produit ===============================================*/
+
+
+.liste-produits {
+
+    position: absolute;
+    width: 60%;
+    height: 480px;
+    margin-left: 38%;
+    margin-top: 100px;
+    background: #1E1E1E;
+    border-radius: 30px;
+    display: none;
+}
+
+
+
+.listepro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: relative;
+    width: 87%;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    overflow: auto;
+}
+
+
+table {
+    margin: 10px auto;
+    width: 90%;
+}
+
+
+.ref {
+    height: 10%;
+    padding: 1% 0px 2% 4%;
+    width: 50%;
+}
+
+.btnsupp {
+    padding: 0% 0px 2% 4%;
+    margin-right: 10px;
+    width: 42%;
+    height: 10%;
+}
+
+
+
+table tr td h2 {
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0px 0px 5px 20px;
+}
+
+
+
+table tr td button {
+    background: #C50000;
+    border-radius: 25px;
+    border: #C50000;
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    margin: 9px 30px 5px 100px;
+}
+
+table tr td button a{
+    text-decoration: none;
+    color: white;
+}
+.line3 {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #858585;
+}
+
+.tdline {
+    width: 50%;
+}
+
+/* =============================================== Message Ereur ===============================================*/
+
+.message h2 {
+    font-size: 18px;
+    font-family: 'Hepta Slab';
+    color:#000000;
+    font-weight:600;
+    padding-bottom:7px; 
+
+}
+
+.message button {
+    font-size: 15px;
+    width: 50px;
+    margin-top:8px;
+    padding:3px 0;
+    cursor: pointer;
+}
+
+
+.message {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Hepta Slab';
+    width: 250px;
+    height: 85px;
+    background-color: whitesmoke;
+    color: #000000;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 10px;
+    margin-top: 2px;
+}
+
+
+/* ================== MEDIA 2 =======================*/
+
+@media (min-width:701px) and (max-width:950px) {
+
+    p {
+        font-size: 72px;
+        margin-left: 45%;
+    }
+
+    .supprimer,
+    .ajouter {
+
+        margin-left: 3%;
+        width: 220px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+
+    .ajouter-produit {
+        margin-top: 50px;
+    }
+
+    .formulaire1 {
+        margin-left: -22px;
+    }
+
+    .formulaire1 h2 {
+        font-size: 15px;
+    }
+
+    .formulaire2 {
+        margin-left: 35%;
+    }
+
+    .line2 {
+        margin-left: 39%;
+    }
+
+}
+
+
+/* ================== MEDIA 3 =======================*/
+
+
+@media (min-width:525px) and (max-width:700px) {
+
+    p {
+        font-size: 70px;
+        margin-left: 20%;
+    }
+
+    .ajouter {
+        margin-top: 40px;
+        margin-left: 10%;
+        width: 200px;
+        height: 47px;
+        font-size: 17px;
+        /* gap: 0px; */
+
+    }
+
+    .supprimer {
+        margin-top: 40px;
+        margin-left: 60%;
+        width: 200px;
+        height: 47px;
+        font-size: 17px;
+    }
+
+    .line {
+        margin-top: 110px;
+        margin-left: 0px;
+        width: 100%;
+        height: 0px;
+        transform: rotate(180deg);
+    }
+
+
+
+    .ajouter-produit {
+        margin-left: 10%;
+        margin-top: 130px;
+        width: 80%;
+        height: 500px;
+    }
+
+    .formulaire1 {
+        margin-left: -28px;
+        gap: 110px;
+        margin-top: 50px;
+    }
+
+    .formulaire2 {
+        margin-left: 34%;
+        gap: 40px;
+        height: 430px;
+        margin-top: 30px;
+    }
+
+    .formulaire1 h2 {
+        font-size: 14.5px;
+    }
+
+
+    .line2 {
+        margin-left: 37%;
+    }
+
+    .formulaire2 .imgcontainer {
+        width: 55%;
+        height: 100px;
+    }
+
+    .formulaire2 .text {
+        height: 40px;
+    }
+
+    .formulaire2 textarea {
+        height: 130px;
+
+    }
+
+    .btnajout {
+
+        margin-top: 450px;
+        margin-left: 55%;
+        width: 110px;
+        height: 35px;
+        font-size: 17.5px;
+    }
+
+
+}
+
+
+/* ================== MEDIA 4 =======================*/
+
+@media (min-width:430px) and (max-width:524px) {
+
+    p {
+        font-size: 70px;
+        margin-left: 15%;
+    }
+
+    .ajouter {
+        margin-top: 40px;
+        margin-left: 8%;
+        width: 170px;
+        height: 50px;
+        font-size: 14px;
+        gap: 0px;
+
+    }
+
+    .supprimer {
+        margin-top: 40px;
+        margin-left: 55%;
+        width: 170px;
+        padding: 3px 30px;
+        height: 50px;
+        font-size: 14px;
+        gap: 0px;
+
+    }
+
+    .line {
+        margin-top: 110px;
+        margin-left: 0px;
+        width: 100%;
+        height: 0px;
+        transform: rotate(180deg);
+    }
+
+
+
+    .ajouter-produit {
+        margin-left: 10%;
+        margin-top: 130px;
+        width: 80%;
+        height: 500px;
+    }
+
+    .formulaire1 {
+        margin-left: -40px;
+        gap: 110px;
+        margin-top: 40px;
+    }
+
+    .formulaire1 h2 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .line2 {
+        margin-left: 37%;
+    }
+
+    .formulaire2 {
+        margin-left: 34%;
+        gap: 100px;
+        gap: 50px;
+        height: 430px;
+        margin-top: 20px;
+    }
+
+
+    .formulaire2 .imgcontainer {
+        width: 55%;
+        height: 100px;
+    }
+
+    .formulaire2 .text {
+        height: 40px;
+    }
+
+    .formulaire2 textarea {
+        height: 130px;
+    }
+
+
+    .btnajout {
+        margin-top: 450px;
+        margin-left: 50%;
+        width: 110px;
+        height: 35px;
+        font-size: 17px;
+    }
+
+}
+
+
+/* ================== MEDIA 5 =======================*/
+
+@media (min-width:360px) and (max-width:430.99px) {
+
+    p {
+        font-size: 60px;
+        margin-left: 10%;
+    }
+
+    .ajouter {
+        margin-top: 40px;
+        margin-left: 5%;
+        width: 150px;
+        height: 50px;
+        font-size: 13px;
+        gap: 0px;
+        padding: 10px 20px;
+    }
+
+    .supprimer {
+        margin-top: 40px;
+        margin-left: 48%;
+        width: 150px;
+        padding: 3px 25px;
+        height: 50px;
+        font-size: 13px;
+        gap: 0px;
+
+    }
+
+    .line {
+        margin-top: 110px;
+        margin-left: 0px;
+        width: 100%;
+        height: 0px;
+        transform: rotate(180deg);
+    }
+
+    .ajouter-produit {
+        margin-left: 10%;
+        margin-top: 130px;
+        width: 80%;
+        height: 500px;
+    }
+
+    .formulaire1 {
+        margin-left: -50px;
+        gap: 110px;
+        margin-top: 40px;
+        gap: 90px;
+    }
+
+    .formulaire1 h2 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .line2 {
+        margin-left: 37%;
+    }
+
+    .formulaire2 {
+        margin-left: 34%;
+        gap: 40px;
+        height: 430px;
+        margin-top: 20px;
+    }
+
+    .formulaire2 .imgcontainer {
+        width: 60%;
+        height: 100px;
+    }
+
+    .formulaire2 main label {
+        width: 35px;
+        height: 22px;
+        font-size: 17px;
+    }
+
+
+    .formulaire2 .text {
+        height: 40px;
+    }
+
+    .formulaire2 textarea {
+        height: 130px;
+    }
+
+
+    .btnajout {
+        margin-top: 450px;
+        margin-left: 50%;
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+}
+
+
+
+/* ================== MEDIA 6  =======================*/
+
+@media (min-width:290px) and (max-width:359px) {
+
+    p {
+        font-size: 55px;
+        margin-left: 10%;
+    }
+
+    .ajouter {
+        margin-top: 40px;
+        margin-left: 8%;
+        width: 120px;
+        height: 45px;
+        font-size: 11px;
+        gap: 0px;
+        padding: 10px 20px;
+    }
+
+    .supprimer {
+        margin-top: 40px;
+        margin-left: 55%;
+        width: 120px;
+        padding: 3px 20px;
+        height: 45px;
+        font-size: 11px;
+        gap: 0px;
+
+    }
+
+    .line {
+        margin-top: 110px;
+        margin-left: 0px;
+        width: 100%;
+        height: 0px;
+        transform: rotate(180deg);
+    }
+
+    .ajouter-produit {
+        margin-left: 5%;
+        margin-top: 130px;
+        width: 90%;
+        height: 500px;
+    }
+
+    .formulaire1 {
+        margin-left: -53px;
+        margin-top: 50px;
+        gap: 100px;
+    }
+
+
+    .formulaire1 h2 {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .line2 {
+        margin-left: 40%;
+    }
+
+    .formulaire2 {
+        margin-left: 35.5%;
+        margin-top: -31px;
+        gap: 50px;
+    }
+
+    .formulaire2 .imgcontainer {
+        width: 60%;
+        height: 100px;
+    }
+
+    .formulaire2 main label {
+        width: 35px;
+        height: 22px;
+        font-size: 17px;
+    }
+
+
+    .formulaire2 .text {
+        height: 40px;
+    }
+
+    .formulaire2 textarea {
+        height: 120px;
+    }
+
+
+    .btnajout {
+        margin-top: 460px;
+        margin-left: 50%;
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+}
+
+
+/* ================== MEDIA 7  =======================*/
+
+@media (max-width:289.99px) {
+
+    p {
+        font-size: 50px;
+        margin-left: 10%;
+    }
+
+    .ajouter {
+        margin-top: 40px;
+        margin-left: 8%;
+        width: 120px;
+        height: 45px;
+        font-size: 11px;
+        gap: 0px;
+    }
+
+    .supprimer {
+        margin-top: 40px;
+        margin-left: 55%;
+        width: 120px;
+        padding: 3px 15px;
+        height: 45px;
+        font-size: 11px;
+        gap: 0px;
+
+    }
+
+    .line {
+        margin-top: 100px;
+        margin-left: 0px;
+        width: 100%;
+        height: 0px;
+        transform: rotate(180deg);
+    }
+
+
+    .ajouter-produit {
+        margin-left: 5%;
+        margin-top: 130px;
+        width: 90%;
+        height: 500px;
+    }
+
+    .formulaire1 {
+        margin-left: -54px;
+        margin-top: 70px;
+        gap: 120px;
+    }
+
+    .formulaire1 h2 {
+        font-size: 13px;
+        width: 100px;
+    }
+
+    .line2 {
+        margin-left: 40%;
+    }
+
+    .formulaire2 {
+        margin-left: 35.5%;
+        margin-top: -30px;
+        gap: 70px;
+    }
+
+    .formulaire2 .imgcontainer {
+        width: 60%;
+        height: 100px;
+    }
+
+    .formulaire2 main label {
+        width: 35px;
+        height: 22px;
+        font-size: 17px;
+    }
+
+
+    .formulaire2 .text {
+        height: 35px;
+    }
+
+    .formulaire2 textarea {
+        height: 100px;
+    }
+
+
+    .btnajout {
+        margin-top: 460px;
+        margin-left: 50%;
+        width: 90px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+
+
+}

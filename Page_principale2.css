@@ -1,0 +1,427 @@
+@media (min-width:951px) and (max-width:1115px)
+{
+
+.supprimer{
+
+padding: 18px 20px;
+}
+
+.ajouter-produit{
+
+    margin-top: 50px;
+}
+.formulaire1{
+
+    margin-left:-10px;
+}
+
+.formulaire h2{
+font-size: 17px;
+}
+
+.line2{
+    margin-left:33%;
+}
+
+}
+
+
+
+@media (min-width:701px) and (max-width:950px){
+
+     table{
+
+       margin: 5px;
+    } 
+
+    table tr td button{
+        font-size: 18px;
+        height: 40px;
+        width: 160px;
+        margin: 9px 0px 5px 5%;
+    }
+
+
+    table tr td h2{
+    font-size: 21px;
+    margin: 0px 0px 5px -15px;
+    }
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btnsupp {
+        padding: 5px 0px 10px 20px;
+        margin-right: 10px;
+        width: 42%;
+        height: 10%;
+    }     
+
+}
+
+
+
+@media (min-width:525px) and (max-width:700px){
+
+    .liste-produits {
+        width: 80%;
+        height: 480px;
+        margin-left: 10%;
+        margin-top: 150px;
+    }
+
+    table{
+
+        margin-left: 5px;
+    }
+    table tr td button{
+
+        font-size: 18px;
+        height: 40px;
+        width: 160px;
+        margin: 9px 0px 5px 5%;
+    }
+
+
+    table tr td h2{
+    font-size: 21px;
+    margin: 5px 0px 5px -15px;
+    }
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btnsupp{
+        padding: 5px 0px 10px 20px;
+        margin-right: 10px;
+        width: 42%;
+        height: 10%;
+    }  
+
+
+}
+
+@media (min-width:431px) and (max-width:524px){
+
+    .liste-produits {
+        width: 90%;
+        height: 480px;
+        margin-left:5%;
+        margin-top: 150px;
+    }
+
+    table{
+
+        margin-left: 5px;
+    }
+    table tr td button{
+
+        font-size: 16px;
+        height: 35px;
+        width: 140px;
+        margin: 9px 8px 5px 5%;
+    }
+
+
+    table tr td h2{
+    font-size: 19px;
+    margin: 8px 0px 5px -15px;
+    }
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btnsupp {
+        padding: 5px 0px 10px 20px;
+        margin-right: 10px;
+        width: 42%;
+    }  
+}
+
+/* @media (min-width:360px) and (max-width:430px){
+    .liste-produits {
+        width: 80%;
+        height: 480px;
+        margin-left: 10%;
+        margin-top: 150px;
+    }
+
+    table{
+
+        margin-left: 5px;
+    }
+    table tr td button{
+
+        font-size: 18px;
+        height: 40px;
+        width: 160px;
+        margin: 9px 0px 5px 5%;
+    }
+
+
+    table tr td h2{
+    font-size: 21px;
+    margin: 5px 0px 5px -15px;
+    }
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btn {
+        padding: 5px 0px 10px 20px;
+        margin-right: 10px;
+        width: 42%;
+        height: 10%;
+    }  
+
+
+} */
+
+@media (min-width:431px) and (max-width:524px){
+
+    .liste-produits {
+        width: 90%;
+        height: 480px;
+        margin-left:4%;
+        margin-top: 150px;
+    }
+
+
+    table{
+
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    table tr td button{
+
+        font-size: 16px;
+        height: 35px;
+        width: 140px;
+        margin: 9px 10px 5px 3%;
+    }
+
+    table tr td h2{
+    font-size: 18px;
+    margin: 8px 0px 5px -5px;
+    }
+
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btnsupp {
+        padding: 5px 0px 10px 10px;
+        margin-right: 20px;
+        width: 42%;
+        height: 10%;
+    }  
+}
+
+
+@media (min-width:360px) and (max-width:430.99px){
+
+    .liste-produits {
+        width: 90%;
+        height: 480px;
+        margin-left:4%;
+        margin-top: 150px;
+    }
+
+    table{
+
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    table tr td button{
+
+        font-size: 15px;
+        height: 30px;
+        width: 120px;
+        margin: 9px 10px 5px 3%;
+    }
+
+    table tr td h2{
+    font-size: 16px;
+    margin: 8px 0px 5px -5px;
+    }
+
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btnsupp{
+        padding: 5px 0px 10px 10px;
+        margin-right: 20px;
+        width: 42%;
+        height: 10%;
+    }  
+
+}
+
+
+@media (min-width:290px) and (max-width:359px){
+
+    .liste-produits {
+        width: 90%;
+        height: 480px;
+        margin-left:4%;
+        margin-top: 150px;
+    }
+
+    table{
+
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    table tr td button{
+
+        font-size: 14px;
+        height: 30px;
+        width: 90px;
+        margin: 9px 10px 5px 3%;
+    }
+
+    table tr td h2{
+    font-size: 14px;
+    margin: 8px 0px 5px -5px;
+    }
+
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btnsupp{
+        padding: 5px 0px 10px 10px;
+        margin-right: 20px;
+        width: 42%;
+        height: 10%;
+    }  
+
+}
+
+@media (max-width:289.99px){
+
+    .liste-produits {
+        width: 90%;
+        height: 480px;
+        margin-left:4%;
+        margin-top: 150px;
+    }
+
+    table{
+
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    table tr td button{
+
+        font-size: 12px;
+        height: 30px;
+        width: 80px;
+        margin: 9px 10px 5px 3%;
+    }
+
+    table tr td h2{
+    font-size: 12px;
+    margin: 8px 0px 5px -5px;
+    }
+
+
+    .ref {
+        height: 10%;
+        margin: 0 10px;
+        width: 50%;
+    }
+    
+    .btnsupp{
+        padding: 5px 0px 10px 10px;
+        margin-right: 20px;
+        width: 42%;
+        height: 10%;
+    }
+
+}
+
+
+
+
+ ::-webkit-scrollbar {
+    width:15px;
+   }
+   
+ ::-webkit-scrollbar-thumb {
+    background-color: #3d3d3d;
+   border-radius: 15px;
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+  /* @media (min-width:870px) and (max-width:950.99px) {
+
+    p {
+        font-size: 78px;
+    }
+
+    .supprimer,
+    .ajouter {
+        margin-left: 4%;
+    }
+
+    .supprimer{
+        padding: 15px 20px;
+    }
+
+    .ajouter-produit{
+        margin-top: 90px;
+    }
+
+.formulaire{
+
+    margin-left:-10px;
+}
+
+.formulaire h2{
+font-size: 16px;
+}
+.formulaire2{
+    margin-left: 35%;
+}
+
+ .line2{
+    margin-left:39%;
+} 
+
+} */
